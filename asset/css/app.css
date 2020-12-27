@@ -1,0 +1,67 @@
+.section-padding {
+  padding: 50px 0 40px 0;
+}
+.content-heading {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.content-heading h2 {
+  position: relative;
+  padding-bottom: 20px;
+  z-index: 1;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 30px;
+}
+.content-heading h2::before {
+  position: absolute;
+  margin-left: -20px;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 5px;
+  content: "";
+  background-color: red;
+}
+.content-heading h2::after {
+  position: absolute;
+  margin-left: -5px;
+  bottom: 0;
+  left: 50%;
+  width: 20px;
+  height: 5px;
+  content: "";
+  background-color: yellow;
+}
+.single-service-icon {
+  display: block;
+  text-align: center;
+}
+.single-service-container {
+  display: table;
+  width: 100%;
+  height: 80px;
+}
+.single-service-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.single-service-icon img {
+  width: 40px;
+  height: 40px;
+}
+.fa.fa-star {
+  font-size: 33px;
+}
+.single-service-icon h4 {
+  font-weight: 600;
+}
+.single-service-icon h4 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+.single-service-icon h4,
+.single-service-icon p {
+  color: #333;
+}
